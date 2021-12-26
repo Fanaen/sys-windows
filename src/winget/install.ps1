@@ -19,6 +19,7 @@ winget install --id=Discord.Discord --exact --silent
 winget install --id=JGraph.Draw --exact --silent # Draw.io
 winget install --id=BlenderFoundation.Blender --exact --silent
 winget install --id=KDE.Krita --exact --silent
+winget install --id=KDE.digikam --exact --silent
 winget install --id=DuongDieuPhap.ImageGlass --exact --silent
 
 # Dev
@@ -50,6 +51,7 @@ winget install --id=Microsoft.PowerToys --exact --silent
 
 # Système
 winget install --id=CPUID.HWMonitor --exact --silent
+winget install --id=CrystalDewWorld.CrystalDiskInfo --exact --silent
 
 # Manquants:
 # - Lightshot

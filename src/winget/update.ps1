@@ -6,6 +6,7 @@ winget upgrade --id=JGraph.Draw --exact --silent # Draw.io
 winget upgrade --id=DuongDieuPhap.ImageGlass --exact --silent
 winget upgrade --id=BlenderFoundation.Blender --exact --silent
 winget upgrade --id=KDE.Krita --exact --silent
+winget upgrade --id=KDE.digikam --exact --silent
 
 # Dev
 winget upgrade --id=Docker.DockerDesktop --exact --silent
