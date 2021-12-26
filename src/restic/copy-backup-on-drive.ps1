@@ -11,4 +11,4 @@
 # Source : https://docs.microsoft.com/fr-fr/windows-server/administration/windows-commands/robocopy
 # Source : https://stackoverflow.com/questions/4228807/copy-files-without-overwrite/4228925
 
-robocopy R:\backup\restic G:\backup\restic /E /XC /XN /XO
+robocopy G:\backup\restic R:\backup\restic /E /XC /XN /XO

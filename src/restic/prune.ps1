@@ -4,8 +4,8 @@ $env:RESTIC_PASSWORD  =[Runtime.InteropServices.Marshal]::PtrToStringAuto([Runti
 
 # Crée un nouveau snapshot pour les différents dossiers sauvegardés.
 Write-Host "`nPersonal archives" -ForegroundColor Blue
-restic -r G:\backup\restic\epc-personal backup R:\archives\epc-personal
+restic -r G:\backup\restic\epc-personal prune
 Write-Host "`nHeavy personal archives" -ForegroundColor Blue
-restic -r G:\backup\restic\epc-personal-heavy backup R:\archives\epc-personal-heavy
+restic -r G:\backup\restic\epc-personal-heavy prune
 Write-Host "`nInter-personal archives" -ForegroundColor Blue
-restic -r G:\backup\restic\epc-shared backup R:\archives\epc-shared 
+restic -r G:\backup\restic\epc-shared prune
